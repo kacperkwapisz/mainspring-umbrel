@@ -1,0 +1,47 @@
+manifestVersion: 1
+id: mainspring
+category: ai
+name: Mainspring
+version: "1.0.0-rc.1"
+tagline: One endpoint for all your AI subscriptions
+icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
+description: >-
+  Mainspring runs on your Umbrel and pools the AI subscriptions you already
+  pay for: Claude, Codex (ChatGPT), Grok, Cursor, OpenCode Console and any
+  OpenAI-compatible API. Every other machine you own points Claude Code, Codex,
+  Cursor, OpenCode or anything that speaks the OpenAI or Anthropic API at one
+  address on your Umbrel.
+
+
+  It keeps every login fresh, keeps each coding session on one account so its
+  prompt cache stays warm, rests an account that hits its limit until it
+  resets, and sends new sessions to the account whose limit resets soonest, so
+  quota you've paid for doesn't expire unused.
+
+
+  The panel shows each account's limits and when they reset, the live
+  sessions, a usage meter at API list price, and the keys you hand to your
+  tools. Traffic to your providers leaves from your home connection, one place
+  for all your machines.
+
+
+  Using subscriptions through a proxy may be against a provider's terms. Use
+  your own accounts, for your own work.
+releaseNotes: >-
+  Release candidate for the first version. Pool your Claude and Codex accounts,
+  route by quota, and sign in to the panel with Umbrel's login.
+developer: Kacper Kwapisz
+website: https://github.com/kacperkwapisz/mainspring
+repo: https://github.com/kacperkwapisz/mainspring
+support: https://github.com/kacperkwapisz/mainspring/issues
+port: 8317
+gallery:
+  - https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/gallery/1.jpg
+  - https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/gallery/2.jpg
+  - https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/gallery/3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+dependencies: []
+submitter: Kacper Kwapisz
+submission: https://github.com/kacperkwapisz/mainspring-umbrel
