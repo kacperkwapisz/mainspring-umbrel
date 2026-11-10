@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.0.0-rc.7"
+version: "1.0.0-rc.8"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -29,8 +29,9 @@ description: >-
   your own accounts, for your own work.
 releaseNotes: >-
   The panel updates live: limits, sessions, usage and accounts change on screen
-  as they happen, without reloading. Accounts are named by their email, and
-  signing in a second Claude account no longer replaces the first.
+  as they happen, including the moment a limit resets. Accounts are named by
+  their email, and signing in a second Claude account no longer replaces the
+  first.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
