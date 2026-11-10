@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.0.0-rc.5"
+version: "1.0.0-rc.6"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -28,9 +28,9 @@ description: >-
   Using subscriptions through a proxy may be against a provider's terms. Use
   your own accounts, for your own work.
 releaseNotes: >-
-  Claude sign-in now starts exactly as Claude Code does. Requests carry the
-  current Claude Code and Codex client details, and the panel's icons sit
-  centred in their buttons.
+  Accounts are named by their email, and signing in a second Claude account no
+  longer replaces the first. New and idle accounts get their limits from the
+  provider's usage endpoint, so they don't show as stale.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
