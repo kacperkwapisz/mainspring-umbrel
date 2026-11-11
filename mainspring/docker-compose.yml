@@ -11,7 +11,7 @@ services:
       PROXY_AUTH_WHITELIST: "/v1,/v1/*,/v0/management/*,/health"
 
   server:
-    image: ghcr.io/kacperkwapisz/mainspring:1.0.0-rc.11@sha256:6133b1682b7bc13b87d696180eadf63ba557c07b01aed059f6b18673d15785bc
+    image: ghcr.io/kacperkwapisz/mainspring:1.0.0-rc.12@sha256:463478e7626aa2836dbf49fe693b94aa155d71fe4a6c95d42f28d4b1e54a40b6
     user: "1000:1000"
     init: true
     restart: on-failure
@@ -20,5 +20,7 @@ services:
       # Umbrel's login already protects the panel. Security keys can be added
       # on top from Settings once the panel is opened over trusted HTTPS.
       MAINSPRING_AUTH: proxy
+      # Update instructions in the panel point at the Umbrel App Store.
+      MAINSPRING_INSTALL: umbrel
     volumes:
       - ${APP_DATA_DIR}/data/data:/data
