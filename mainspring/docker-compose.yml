@@ -11,7 +11,7 @@ services:
       PROXY_AUTH_WHITELIST: "/v1,/v1/*,/v0/management/*,/mcp,/health"
 
   server:
-    image: ghcr.io/kacperkwapisz/mainspring:1.0.2@sha256:d5d78d1e137e65c2de8f0929f62bbbf24609bc38ceaa7e2513cf0012809c17ed
+    image: ghcr.io/kacperkwapisz/mainspring:1.0.3@sha256:8045c1d7b5c708c39e5139415f25965bedfe2d6591e1b2e42b0a4fac856ef255
     user: "1000:1000"
     init: true
     restart: on-failure

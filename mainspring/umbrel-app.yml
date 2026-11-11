@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.0.2"
+version: "1.0.3"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -28,9 +28,8 @@ description: >-
   Using subscriptions through a proxy may be against a provider's terms. Use
   your own accounts, for your own work.
 releaseNotes: >-
-  Settings, Tailnet address now has an Open it button once Mainspring is
-  connected, which brings a setup code while no security key exists for the
-  tailnet address.
+  Copy buttons confirm with a check on the button instead of a toast, and
+  toasts appear at the top centre.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
