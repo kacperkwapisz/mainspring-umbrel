@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.2.1"
+version: "1.3.0"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -28,8 +28,9 @@ description: >-
   Using subscriptions through a proxy may be against a provider's terms. Use
   your own accounts, for your own work.
 releaseNotes: >-
-  Fixes an empty Sessions list for pi sessions, and Check now explains when a
-  provider limits how often limits can be read instead of showing a 429.
+  What's new shows your installed and the latest version. Text keeps its sizes
+  on iPhones and the iPhone Duo, Sessions stack on narrower screens, and the
+  installed app opens without the browser around it.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
