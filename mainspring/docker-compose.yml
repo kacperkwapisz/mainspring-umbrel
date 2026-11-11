@@ -7,11 +7,12 @@ services:
       APP_PORT: 8317
       # Tools on other machines call the API and /mcp with a sk-ms- key, so these paths
       # skip Umbrel's login. Mainspring checks the key on every request.
+      # The docs (/docs, /llms.txt) and their stylesheets are public.
       # The panel at / stays behind Umbrel's login.
-      PROXY_AUTH_WHITELIST: "/v1,/v1/*,/v0/management/*,/mcp,/health"
+      PROXY_AUTH_WHITELIST: "/v1,/v1/*,/v0/management/*,/mcp,/health,/docs,/docs/*,/llms.txt,/llms-full.txt,/assets/*"
 
   server:
-    image: ghcr.io/kacperkwapisz/mainspring:1.0.3@sha256:8045c1d7b5c708c39e5139415f25965bedfe2d6591e1b2e42b0a4fac856ef255
+    image: ghcr.io/kacperkwapisz/mainspring:1.0.4@sha256:26ec9be2e3ab1b3277ef3f54014c2d176b18bd0a37539a7871d040fbf00b6374
     user: "1000:1000"
     init: true
     restart: on-failure
