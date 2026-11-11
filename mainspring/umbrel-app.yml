@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.0.0-rc.12"
+version: "1.0.0-rc.13"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -28,9 +28,9 @@ description: >-
   Using subscriptions through a proxy may be against a provider's terms. Use
   your own accounts, for your own work.
 releaseNotes: >-
-  What's new in the panel shows what changed in each version, and Mainspring
-  tells you in the sidebar when a new release is out. The model list shows
-  exactly what your Claude and Codex subscriptions offer.
+  Fixes Claude requests with a system prompt from tools other than Claude Code,
+  and empty answers from Codex models when a tool doesn't stream. Older Claude
+  models such as Haiku 4.5 accept a system prompt too.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
