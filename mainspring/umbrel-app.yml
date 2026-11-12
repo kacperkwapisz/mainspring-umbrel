@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.4.0"
+version: "1.4.1"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -28,9 +28,9 @@ description: >-
   Using subscriptions through a proxy may be against a provider's terms. Use
   your own accounts, for your own work.
 releaseNotes: >-
-  A timezone setting decides where days start: Today in the panel, the Meter's
-  days and each key's daily cap. It's set from your browser the first time you
-  open the panel.
+  The Meter chart's Today label sits centred under its bar. Also in 1.4: a
+  timezone setting decides where days start, set from your browser the first
+  time you open the panel.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
