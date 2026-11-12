@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.3.2"
+version: "1.3.3"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -28,9 +28,8 @@ description: >-
   Using subscriptions through a proxy may be against a provider's terms. Use
   your own accounts, for your own work.
 releaseNotes: >-
-  Fixes Codex turns that could be cut off at the WebSocket connection's hourly
-  reconnect. Adds a docs page on seeing your limits in pi, T3 Code or your own
-  scripts, and the docs no longer repeat themselves.
+  Today and the Meter chart's days follow your own clock instead of UTC, so
+  just after midnight Today no longer shows yesterday's requests.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
