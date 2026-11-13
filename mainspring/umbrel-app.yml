@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.6.1"
+version: "1.7.0"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -28,8 +28,9 @@ description: >-
   Using subscriptions through a proxy may be against a provider's terms. Use
   your own accounts, for your own work.
 releaseNotes: >-
-  Fixes Claude refusing some Claude Code requests with "A maximum of 4 blocks
-  with cache_control may be provided".
+  Mainspring follows Anthropic's status page: during an incident that affects
+  Claude, the Pool and Log pages say so with a link, and failed requests name
+  the incident.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
