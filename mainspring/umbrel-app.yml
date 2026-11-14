@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.7.1"
+version: "1.7.2"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -28,9 +28,9 @@ description: >-
   Using subscriptions through a proxy may be against a provider's terms. Use
   your own accounts, for your own work.
 releaseNotes: >-
-  Mainspring follows Anthropic's, OpenAI's and Cursor's status pages: during an
-  incident that affects your accounts, the Pool and Log pages say so with a
-  link, and failed requests name the incident.
+  Fixes Claude accounts asking you to sign in again after a few days. Mainspring
+  now refreshes each account once when its token expires, instead of once per
+  waiting request, and refreshes tokens in the background before they run out.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
