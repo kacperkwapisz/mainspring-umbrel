@@ -2,7 +2,7 @@ manifestVersion: 1
 id: mainspring
 category: ai
 name: Mainspring
-version: "1.7.2"
+version: "1.8.0"
 tagline: One endpoint for all your AI subscriptions
 icon: https://raw.githubusercontent.com/kacperkwapisz/mainspring/main/assets/icon.svg
 description: >-
@@ -28,9 +28,12 @@ description: >-
   Using subscriptions through a proxy may be against a provider's terms. Use
   your own accounts, for your own work.
 releaseNotes: >-
-  Fixes Claude accounts asking you to sign in again after a few days. Mainspring
-  now refreshes each account once when its token expires, instead of once per
-  waiting request, and refreshes tokens in the background before they run out.
+  The Meter's dollar figures are right for every provider: cached tokens are no
+  longer counted twice, Claude's one-hour cache writes and web searches are
+  charged as Anthropic charges them, and long-context pricing applies. Token
+  counts sent back to Codex CLI and Claude Code follow each API's rules, Claude
+  takes the effort you choose from OpenAI-format clients, and pi shows session
+  cost at API list prices.
 developer: Kacper Kwapisz
 website: https://github.com/kacperkwapisz/mainspring
 repo: https://github.com/kacperkwapisz/mainspring
